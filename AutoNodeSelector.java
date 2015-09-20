@@ -37,6 +37,11 @@ public class AutoNodeSelector implements NodeSelectorStrategy {
 		this.indexName = indexName;
 	}
 
+        public void blah() { 
+	    // I'm adding a useless function
+	    return null;
+	}
+
 	@Override
 	public boolean isIndexOwnerLocal() {
 		return localAddress == null || localAddress.equals( masterAddress );
