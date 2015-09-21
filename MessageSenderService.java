@@ -43,4 +43,12 @@ public interface MessageSenderService extends Service {
 	 * @return the current cluster view
 	 */
 	View getView();
+
+
+        /**
+         * do something
+         */
+        void doSomething();
+
+
 }
